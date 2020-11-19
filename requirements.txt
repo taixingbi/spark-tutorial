@@ -1,0 +1,3 @@
+pip install --upgrade pip
+environment_kernels
+pyspark
