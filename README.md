@@ -19,12 +19,15 @@ https://github.com/edyoda/pyspark-tutorial
 ###### dockerhub
 https://hub.docker.com/_/microsoft-mmlspark-release
 
-###### 
+###### docker run
 ```
 docker run -it -v ~/spark/share:/tmp/ -p 8888:8888 -p 4040:4040 -e ACCEPT_EULA=yes mcr.microsoft.com/mmlspark/release
-jupyter notebook  --port=8888
 ```
-
+###### chrome
+```
+jupyter notebook
+http://localhost:8888/
+```
 ###### del docker
 ```
 docker stop $(docker ps -aq)
