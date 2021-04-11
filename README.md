@@ -33,6 +33,7 @@ http://localhost:8888/
 docker stop $(docker ps -aq)
 docker rm $(docker ps -aq)
 docker rmi $(docker images -q)
+docker exec -it containerId bash   
 ```
 
 ###### java 
